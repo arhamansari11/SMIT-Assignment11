@@ -1,0 +1,249 @@
+/* navbar */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+    margin-bottom: 80px;
+}
+
+.navbar img {
+    margin-right: 110px;
+}
+
+.navbar-nav {
+    display: block;
+    margin: auto;
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-item:hover {
+    text-decoration: underline 2px gray;
+}
+
+.btn-sign-in {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+
+/* home page */
+.home-page {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#home-heading {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+
+#home-sec-2 img {
+    width: 100%;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(128, 128, 128, 0.178);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 4px 10px;
+    box-shadow: 0px 5px 10px 2px rgba(128, 128, 128, 0.39);
+    flex-wrap: wrap;
+}
+
+
+/* sketches */
+.sketches {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+
+/* help-page */
+#help-page {
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+
+#help-heading {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.help-card {
+    border: 2px solid rgba(128, 128, 128, 0.157);
+    margin: 10px 20px 10px 20px;
+    width: 300px;
+    height: 330px;
+    padding: 30px 30px;
+    background-color: rgba(203, 200, 200, 0.055);
+    box-shadow: 3px 6px 8px 1px rgba(128, 128, 128, 0.236);
+    cursor: pointer;
+}
+
+.help-mini-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* property page */
+.property-page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#property-heading {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.property-btn {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+/* property-card */
+.property-card {
+    margin-bottom: 100px;
+}
+
+.card {
+    margin-top: 50px;
+    box-shadow: 5px 5px 20px 0px rgba(128, 128, 128, 0.467);
+}
+
+.card-body b {
+    font-size: 25px;
+    color: rgba(25, 25, 252, 0.697);
+}
+
+.card-emoji {
+    float: right;
+    cursor: pointer;
+}
+
+.card-btn {
+    margin-top: 20px;
+}
+
+
+/* testimonial-page */
+#testimonial-sec-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#testimonial-sec-1 p {
+    margin-top: 0px;
+}
+
+#testimonial-sec-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-img {
+    margin-top: -50px;
+}
+
+.testimonial-page #testimonial-sec-3 {
+    display: flex;
+    justify-content: space-evenly;
+    /* position: absolute; */
+    /* left: 50px; */
+}
+
+#testimonial-sec-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+}
+
+#testimonial-sec-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+#testimonial-box {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    padding: 30px 40px;
+    box-shadow: 7px 7px 30px 0px rgba(128, 128, 128, 0.31);
+}
+
+
+/* agent-page */
+.agent-page {
+    background-color: rgba(14, 14, 44, 0.962);
+    height: auto;
+    margin-top: 100px;
+}
+
+.second-last-sec {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 130px 10px;
+}
+
+.agent-sec-1 {
+    width: 450px;
+}
+
+.agent-sec-2 img {
+    cursor: pointer;
+}
+
+
+/* footer */
+footer {
+    padding: 100px 30px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.footer-links:hover {
+    color: rgb(87, 87, 87);
+}
+
+.footer-items {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#copyright {
+    float: right;
+    color: gray;
+}
